@@ -4,5 +4,5 @@
     "repository": "android_device_lg_e986",
     "target_path": "device/lg/e986",
     "revision": "android-4.4.1"
-  },
+  }
 ]
