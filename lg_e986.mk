@@ -24,7 +24,8 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
-$(call inherit-product, device/lg/e986/device.mk)
+$(call inherit-product, device/lge/e980/device.mk)
+$(call inherit-product-if-exists, vendor/lge/e980/e980-vendor.mk)
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := lg_e986
