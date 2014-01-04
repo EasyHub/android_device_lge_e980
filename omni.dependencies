@@ -1,8 +1,14 @@
 [
   {
     "remote": "omnirom",
-    "repository": "android_device_lg_e986",
-    "target_path": "device/lg/e986",
+    "repository": "android_device_lge_gproj-common",
+    "target_path": "device/lge/gproj-common"
     "revision": "android-4.4.1"
-  }
+ },
+  {
+    "remote": "omnirom",
+    "repository": "lge-kernel-gproj",
+    "target_path": "kernel/lge/gproj"
+    "revision": "android-4.4.1"
+ }
 ]
